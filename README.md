@@ -11,6 +11,6 @@ Bugs in JS
 3)
 
 First InterView Question
-1) What is the difference Between Null and undefined.
-2) Nan (Not a Number); - property of Global Object
-3) 
+1) What is the difference Between Null and undefined
+2) Nan (Not a Number); - property of Global Object ?
+3) Difference between setTimeout() && setInterval() ?
