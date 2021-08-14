@@ -8,8 +8,8 @@ History OF JS
 
  ECMAScript -- ES6 (2015) / also known as ECMAScript 6th Edition 
 
- --> Developer has been making changes in javaScript since it was discovered untill now.
- Every year developers were added new features and making changes in JS to make it more convienent for everyone to understand and use.
+  --> Developer has been making changes in javaScript since it was discovered untill now.
+  Every year developers were added new features and making changes in JS to make it more convienent for everyone to understand and use.
   But the best thing happened in the year 2015 where the new changes and features 
   added over the ECMAScript ( ES5 JavaScipt Edition ) was admired.
   After the changes It was named as ES6. 
@@ -17,3 +17,14 @@ History OF JS
   --> In ES6, various new features and services were added
   which became a whole new reasons for every developer to admire that 
   the language JS is one of the best and easy Scripting language.
+     
+     Some of the well Known features that were embedded in ES6 were : 
+     1. Let and Const 
+     2. Template Strings
+     3. Default Arguments
+     4. Destructuring 
+     5. Object properties 
+     6. Arrow Function 
+     7. Rest Operators
+     8. Spread Operators
+
