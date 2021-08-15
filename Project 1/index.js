@@ -7,7 +7,7 @@ req.open('GET', "https://restcountries.eu/rest/v2/name/nepal")
 
 req.send();
 
-// to get the response 
+// to get the response using XMLHttpRequest 
 
 req.addEventListener('load', function() {
     let [data] = JSON.parse(this.responseText)
