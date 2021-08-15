@@ -12,7 +12,7 @@ body {
 
 .container {
     background-color: white;
-    height: 80vh;
+    height: fit-content;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -33,7 +33,7 @@ h1 {
 }
 
 footer {
-    margin: 10px;
+    margin: 2em 10px;
     font-size: 80%;
     border-top: 2px black solid;
     background-color: white;
