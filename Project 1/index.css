@@ -24,6 +24,7 @@ img {
     width: 200px;
     height: 300px;
     background-color: white;
+    animation: animation 8s none;
 }
 
 h1 {
@@ -45,4 +46,23 @@ footer {
 
 footer #foot {
     background-color: white;
+}
+
+@keyframes animation {
+    0% {
+        transform-origin: center;
+        transform: rotateZ(985deg);
+        width: 0px;
+    }
+    50% {
+        transform-origin: center;
+        transform: rotateZ(785deg);
+        width: 50px;
+    }
+    75% {
+        transform-origin: center;
+        width: 80px;
+        transform: rotateZ(285deg);
+    }
+    100% {}
 }
