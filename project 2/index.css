@@ -1,0 +1,33 @@
+body {
+    font-family: poppins, serif;
+    background-color: #121212;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.joke-container {
+    padding: 1em;
+    width: 70vw;
+    background-color: white;
+    height: fit-content;
+    display: grid;
+    grid-template-rows: 8fr 8fr 1fr;
+    justify-content: center;
+}
+
+button {
+    background-color: orange;
+    justify-self: center;
+    transition: 2s all;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+div>#jokes {
+    text-align: center;
+}
