@@ -1,0 +1,28 @@
+body {
+    background-color: #121212;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+div {
+    padding: 2em;
+    background-color: antiquewhite;
+    animation: changer 3s infinite;
+}
+
+img {
+    width: 130px;
+}
+
+@keyframes changer {
+    0% {
+        background-color: antiquewhite;
+    }
+    50% {
+        background-color: aquamarine;
+    }
+    100% {}
+}
