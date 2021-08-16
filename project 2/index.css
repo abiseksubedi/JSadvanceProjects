@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;1,400;1,500&display=swap');
 body {
-    font-family: poppins, serif;
+    font-family: 'Ubuntu', sans-serif;
     background-color: #121212;
     height: 100vh;
     display: grid;
@@ -28,6 +29,7 @@ button:hover {
     color: white;
 }
 
-header div>#jokes {
+header,
+div>#jokes {
     text-align: center;
 }
