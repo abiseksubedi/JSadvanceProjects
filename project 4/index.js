@@ -7,24 +7,24 @@ const tempLoad = () => {
 
     temp.innerHTML = "&#xf2cb";
 
-    setInterval(() => {
+    setTimeout(() => {
 
         temp.innerHTML = "&#xf2ca"
         temp.style.color = 'green';
     }, 2000);
-    setInterval(() => {
+    setTimeout(() => {
 
         temp.innerHTML = "&#xf2c9";
         temp.style.color = 'darkgreen'
 
     }, 3000);
-    setInterval(() => {
+    setTimeout(() => {
 
         temp.innerHTML = "&#xf2c8";
         temp.style.color = 'darkred'
 
     }, 4000);
-    setInterval(() => {
+    setTimeout(() => {
 
         temp.innerHTML = "&#xf2c7";
         temp.style.color = 'red'
@@ -33,3 +33,4 @@ const tempLoad = () => {
 }
 
 tempLoad();
+setInterval(tempLoad, 5300)
