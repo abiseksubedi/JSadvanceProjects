@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;1,400;1,500&display=swap');
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    backdrop-filter: blur(5);
+    background-color: rgba(44, 122, 211, 0.726);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+form {
+    position: relative;
+    background-color: rgba(44, 122, 211, 1);
+    padding: 2em;
+    text-align: center;
+    box-shadow: 5px 4px 4px black;
+}
+
+label {
+    color: white;
+    margin: 1em;
+    font-size: larger;
+}
+
+select {
+    margin-bottom: 2em;
+}
+
+input {
+    background-color: rgb(212, 215, 219);
+    margin-bottom: 1em;
+}
+
+span {
+    border-top: 1px solid black;
+    width: 4em;
+    color: white
+}
+
+#resultBtn {
+    background: linear-gradient(rgb(212, 215, 219), rgba(44, 122, 211, 0.726));
+}
